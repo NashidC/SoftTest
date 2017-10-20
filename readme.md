@@ -15,13 +15,15 @@ Git Branches:
 
 How to do it in terminal: 
 
+1. Do the following commands
 cd Desktop/FolderWhereYouWantThisProject
 git init //this initializes the repository in your computer
 git add . //this will add all of the files in your folder to the repo
 git commit -m 'init' //init means initial commit 
 
-go to github.com and create a repo [name it something simple] copy the link to the repo
+2. go to github.com and create a repo [name it something simple] copy the link to the repo
 
+3. more commands
 git remote add origin https://github.com/repoName.git
 git push -u origin master //if this doesnt work try just git push
 
@@ -30,14 +32,17 @@ git log //shows you your last few commits so you can make sure that you actually
 next make sure to refresh your github repo website and check if it works 
 
 
-Try to commit as often as possible! 
+Try to commit as often as possible! Or if you suck at doing that, at least at the end of everyday before you leave! 
 
 Updating your repo:
 
-navigate to the folder
+1. navigate to the folder with "cd whereever"
+2. git pull //always pull before you commmit
+3. git commit -m 'i made this and this change' //commit messages are very important because you want to remember what you last did
+4. git push //updates your master origin
 
-git pull //always pull before you commmit
 
-git branch //tells you what branch you're currently on
+DO NOT DO ANYTHING BRANCH RELATED YET UNTIL AFTER YOU ARE COMPLETED WITH THE GIT COURSE
+
 
 
