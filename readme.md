@@ -28,3 +28,16 @@ git push -u origin master //if this doesnt work try just git push
 git log //shows you your last few commits so you can make sure that you actually did it
 
 next make sure to refresh your github repo website and check if it works 
+
+
+Try to commit as often as possible! 
+
+Updating your repo:
+
+navigate to the folder
+
+git pull //always pull before you commmit
+
+git branch //tells you what branch you're currently on
+
+
