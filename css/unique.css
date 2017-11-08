@@ -174,8 +174,23 @@ a:hover {
 	font-size: 18px;
 }
 
-.projects {
+.projects, .book {
 	margin-top: 20%;
 	margin-left: 40%;
 	font-size: 20px;
+	color: white;
+}
+
+.book {
+	background-color: #9ed749;
+}
+
+.projects {
+	background-color: #4f4f4f;
+	color: white;
+}
+
+.projects:hover {
+	background-color: #2f2f2f;
+	color: white;
 }
